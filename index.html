@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,6 +9,18 @@
     <script src="js/funciones.js"></script>
 </head>
 <body>
+    <div><h1>Tienda Bicicletas - Sección Clientes VIP</h1></div>
+    <p><b>Registro de Clientes</b></p>
+
+    <input type="number" id="miId" placeholder="Escribir Id numérico">
+    <input type="text" id="name" placeholder="Escribir Nombre del cliente">
+    <input type="text" id="miEmail" placeholder="Email">
+    <input type="number" id="miAge" placeholder="Edad">
+
+    <button onclick="registrar()"> Registrar Cliente</button>
+    <div id="idRegistro"></div>
+    
+    <p><b>Comprobar Clientes</b></p>
     <button onclick="consultar()"> Mostrar Clientes</button>
     <div id="idConsulta"></div>
 </body>
